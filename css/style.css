@@ -1,0 +1,39 @@
+nav {
+    color: aliceblue;
+    text-shadow: aliceblue;
+    width: 120%px;
+}
+
+/* #demo {
+    width: 70%;
+    display: flex;
+    margin-left: 13%;
+} */
+#carta {
+    margin-left: 10;
+}
+.row
+{
+    margin-left: 50%;
+    display: flex;
+}
+.card-body
+{
+    margin-left: 10px;
+}
+footer
+{
+    
+    width: 1450px;
+    background-color: rgb(121, 121, 121);
+    color: rgb(255, 255, 255);
+}
+.list-group
+{
+    background-color: rgb(71, 71, 71);
+    color: black;
+}
+#lista {
+    background-color: rgb(99, 160, 112);
+    color: black;
+}
