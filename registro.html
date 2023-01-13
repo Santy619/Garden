@@ -38,16 +38,30 @@
       </nav>
 <!-- INICIO SESION -->
 <H4>
-    INICIO SESION
+    REGISTRO
 </H4>
 
 <form action="carrito.html" method="post" class="was-validated" id="formulario-inicio">
   <div class="mb-3 mt-3">
-    <label for="uname" class="form-label">Username:</label>
-    <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+    <label for="uname" class="form-label">Nombre:</label>
+    <input type="text" class="form-control" id="fname" placeholder="ingresar nombre" name="fname" required>
+    <div class="valid-feedback">Valido.</div>
+    <div class="invalid-feedback">Porfavor rellena este cuadro.</div>
+
+    <label for="uname" class="form-label">Apellido:</label>
+    <input type="text" class="form-control" id="dname" placeholder="ingresar apellido" name="sname" required>
+    <div class="valid-feedback">Valido.</div>
+    <div class="invalid-feedback">Porfavor rellena este cuadro.</div>
+
+  </div>
+
+  <div class="mb-3 mt-3">
+    <label for="uname" class="form-label">Email:</label>
+    <input type="text" class="form-control" id="email" placeholder="ingresar email" name="email" required>
     <div class="valid-feedback">Valido.</div>
     <div class="invalid-feedback">Porfavor rellena este cuadro.</div>
   </div>
+
   <div class="mb-3">
     <label for="pwd" class="form-label">Password:</label>
     <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
@@ -64,13 +78,13 @@
   
 </form>
       
-<div class="col-md-5">
-  <div class="alert alert-info">
-    <strong>Hey!</strong> Aun no estas registrado?, por favor registrate ahora
-    <form action="registro.html">
-      <button type="submit" class="btn btn-primary">Registrarme</button>
-    </form>
-  </div>
+
+
+
+
+
+
+
 
 
     <!-- Latest compiled and minified CSS -->

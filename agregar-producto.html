@@ -46,9 +46,12 @@
                 <div class="col-lg-8 col-xl-6">
                   <div class="card border-top border-bottom border-3" style="border-color: #3d3d3d !important;">
                     <div class="card-body p-5">
-          
+
                       <p class="lead fw-bold mb-4" style="color: #6e6e6e;">Agregar Producto</p>
-          
+
+
+                      <!-- FORMULARIO AGEGAR PRODUCTO -->
+                      <form action="/action_page.php" method="post"> 
                       <div class="row">
                         <div class="col mb-3">
                             <span class="input-group-text">Nombre</span>
@@ -71,9 +74,7 @@
                             <input type="text" class="form-control" placeholder="Stock">
                         </div>
                       </div>
-
-                      <p>Imagen</p>
-                      <form action="/action_page.php">
+                        <P>Imagen</P>
                         <input type="file" id="myFile" name="filename">
                         <input type="submit">
                       </form>
