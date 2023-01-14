@@ -37,3 +37,9 @@ footer
     background-color: rgb(99, 160, 112);
     color: black;
 }
+
+.img-table {
+    width: 50px;
+    margin-right: 10px;
+}
+
