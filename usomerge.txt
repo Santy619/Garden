@@ -1,1 +1,0 @@
-En esta entrega usamos merge, la cual se debe reflejar en el branch main
